@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Fruit Order Form</title>
+    <link rel = "stylesheet" type = "text/css" href = "style1.css"/>
+    <meta http-equiv="Content-Type"
+        content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<h1> Please enter your full name and the amount of each fruit you would like to order</h1>
+
+
+<table border="1" align="center" bgcolor="#FFFF00"  >
+<thead>
+<tr>
+<th  width="200">Fruit</th><th width="100">Price</th>
+</tr>
+<tr>
+<td>Bananas</td><td>0.39</td>
+</tr>
+<tr>
+<td>Strawberry</td><td>2.50</td>
+</tr>
+<tr>
+<td>Kiwi</td><td>2.65</td>
+</tr>
+</form>
+
+
+
+<form method="POST" action="writeFruitForm.php">
+<table border="0" cellpadding="1" align="center">
+<th colspan="2">
+<h2>Fruit Order Form</h2>
+</th>
+<tr>
+<td><p>First Name</td><td> <input type="text" name="first_name"  /></p></td>
+</tr>
+<tr>
+<td><p>Last Name</td><td> <input type="text" name="last_name"  /></p></td>
+</tr>
+<tr>
+<td><p>Banana</td><td> <input type="text" name="banana"  /></p></td>
+</tr>
+<tr>
+<td><p>Strawberry</td><td> <input type="text" name="strawberry" /></p></td>
+</tr>
+<tr>
+<td><p>Kiwi</td><td> <input type="text" name="kiwi" /></p></td>
+</tr>
+<tfoot>
+<tr>
+<td><p><input type="submit" value="Submit" /></p></td>
+<td><p><input type="reset" value="Clear" /></p></td>
+</tr>
+</tfoot>
+</form>
+</body>
+</html>
